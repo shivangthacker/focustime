@@ -14,6 +14,7 @@ import {Timer} from './src/features/Timer';
 import {FocusHistory} from './src/features/Focushistory';
 
 export default function App() {
+  console.log("yolo")
   //export default means this file exports this one main thing.It exports fonction app. Function app is pull everything together
   
   const [currentSubject, setCurrentsubject] = useState();
